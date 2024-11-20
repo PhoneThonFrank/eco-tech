@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Eco-Tech</title>
+    <!-- Bootstrap CDN Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icon CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Boxicons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../sidebar/sidebar.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/Favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./images/Logo.svg" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Eco-Tech-Mortals</span>
+                    <span class="profession">DIY Website</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="search" placeholder="search....">
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-home-alt icon'></i>
+                        <span class="text nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-category-alt icon'></i>
+                        <span class="text nav-text">Category</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-message-square-dots icon'></i>
+                        <span class="text nav-text">Contact</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-user icon'></i>
+                        <span class="text nav-text">About Us</span>
+                    </a>
+                </li>
+
+            </div>
+
+            <div class="button-content">
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container p-0 mt-0">
+        <div class="row hero">
+            <div class="col-12 col-md-6 align-self-center">
+                <h1>Eco-Tech</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia, dolores velit voluptatem
+                    dolorum voluptates veritatis! Non nobis fugit aperiam, provident odit temporibus tempore assumenda?
+                    Quo voluptatibus dolor dolorum quam. <br> lore</p>
+                    <button class="btn btn-success">Start!</button>
+                    <div class="d-flex mt-3 heroIcons">
+                        <img src="./images/50.svg" alt="50m" width="60px" class="me-3" data-bs-toggle="tooltip" title="50+ Projects" data-bs-placement="bottom">
+                        <img src="./images/1m.svg" alt="50m" width="60px" class="mx-3" data-bs-toggle="tooltip" title="1M + Users" data-bs-placement="bottom">
+                        <img src="./images/contributors.svg" alt="50m" width="60px" class="mx-3" data-bs-toggle="tooltip" title="100+ Contributors" data-bs-placement="bottom">
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 heroImgCon"></div>
+        </div>
+        <hr>
+        <h1 class="text-center">Categories</h1>
+        <div class="categoriesCarousel"></div>
+        <hr>
+        <h1 class="text-center">Featured Projects</h1>
+        <div class="row">
+    
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-3">
+                <div class="card w-100 projectCard" style="width: 18rem;">
+                    <img src="./projects/stationary/pencil_holder/1.svg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Pencil Holder</h5>
+                        <p class="card-text">Create a unique pencil holder by recycling a tin can! Clean the can, color a design you like, and glue it around the can. Let it dry, and enjoy your personalized creation.
+
+
+
+
+
+
+                        </p>
+                        <button class="btn btn-success"
+                            onclick="showProject('Pencil Holder Using Recycled Materials', 'Kelsey Nickerson', 'Nov 1, 2022', `
+                      
+                      Materials Needed:<br>
+Empty tin can (rinsed and dried)<br>
+Coloring page (from a coloring book)<br>
+Colored pencils or markers<br>
+Scissors<br>
+School glue<br>
+Water<br>
+Mason jar<br>
+Paintbrush<br>
+<br><br>
+Prepare the Tin Can: Start by thoroughly cleaning and drying an empty tin can. Remove any labels or sticky residue.
+<br><br>
+Create the Design: Choose a coloring page with a design you like. Cut out the design to fit around the tin can.
+<br><br>
+Color the Design: Use colored pencils or markers to color the design on the cut-out paper.
+<br><br>
+Make the Glue Mixture: In a mason jar, mix equal parts school glue and water to create a glue mixture.
+<br><br>
+Apply the Glue: Use a paintbrush to apply the glue mixture to the outside of the tin can.
+<br><br>
+Wrap the Design: Carefully wrap the colored design around the tin can, pressing it onto the glue-covered surface.
+<br><br>
+Let it Dry: Allow the tin can to dry completely. This may take a few hours, depending on the thickness of the glue.
+<br><br>
+Enjoy Your Custom Pencil Holder: Once dry, your custom pencil holder is ready to use!
+
+
+
+                        `, './projects/stationary/pencil_holder/1.svg','./projects/stationary/pencil_holder/2.svg','./projects/stationary/pencil_holder/3.svg',`www.youtube.com/embed/pbh6Lm92qjM?si=381SjtRwCCbIu1Mm`, 'What kind of tin can is best suited for this project?', 'Can I use something other than a coloring page for the design?', 'How can I make sure the paper sticks well to the tin can?', 'Any clean and dry tin can will work for this project. However, medium-sized cans (like those used for soups or vegetables) are ideal because they are easy to handle and provide enough space for pencils and other stationery items.', `Absolutely! You can use wrapping paper, scrapbook paper, magazine cutouts, or even fabric to decorate your tin can. The key is to choose a material that can easily wrap around the can and adhere to it with glue.`, 'To ensure the paper sticks well, make sure to apply the glue mixture evenly over the entire surface of the can. Press the paper firmly against the can and smooth out any bubbles or wrinkles. Allow it to dry completely to secure the paper in place.')">View</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="../sidebar/sidebar.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation');
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+        })()
+    </script>
+</body>
+
+</html>

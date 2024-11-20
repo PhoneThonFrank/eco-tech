@@ -1,0 +1,36 @@
+/* Footer Styles */
+/* .footer {
+  background-color: #333;
+  color: white;
+} */
+
+.social-icons a {
+  /* color: white; */
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  color: #1fb16d;
+}
+
+.social-icons a:hover {
+  color: #4CAF50;
+}
+
+.footer-links a {
+  color: #1fb16d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+}
+
+.tagline {
+  background-color: #1fb16d;
+  /* color: white; */
+  font-weight: bold;
+}
+
+.tagline p {
+  margin: 0;
+}

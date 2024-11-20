@@ -1,0 +1,105 @@
+.heroImgCon {
+    background: url('./images/heroBg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero{
+    height: 100vh;
+}
+
+@media screen and (max-width: 992px) {
+    .heroImgCon {
+        display: none;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .heroIcons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .heroIcons img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .heroIcons img {
+        width: 40px;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 100px;
+    background: -webkit-linear-gradient(30deg, #11b41e, #dbd8d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 550px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
+.finalH2 {
+    font-size: 50px;
+    color: white;
+}
+
+.pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('./images/pfp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.reviewCard{
+    position: relative;
+    height: 250px;
+}
+
+.pfpCon{
+    position: absolute;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* unvisited link */
+.reviewBtn {
+    color: green;
+    text-decoration: underline;
+  }
+
+  .finalCon{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./images/finalConImg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  
