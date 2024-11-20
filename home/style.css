@@ -9,6 +9,12 @@
     height: 100vh;
 }
 
+@media screen and (max-height: 775px) {
+    .hero{
+        height: 100%;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .heroImgCon {
         display: none;
