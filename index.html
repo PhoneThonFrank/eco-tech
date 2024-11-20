@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Eco-Tech</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./home/images/Favicon.svg" type="image/x-icon">
+    <!-- Bootstrap CDN Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icon CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Boxicons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./home/style.css">
+    <link rel="stylesheet" href="./sidebar/sidebar.css">
+    <link rel="stylesheet" href="./footer/02._footer.css">
+    
+</head>
+
+<body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="exampleModalLabel">Review</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="input">
+                <p>Name:</p>
+                <input type="name" class="form-control" placeholder="Enter your name"><br>
+                <p>Email:</p>
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <br><br>
+                <label>Write your review down!</label><br>
+                <textarea name="des" rows="7" cols="50" class="form-control"></textarea><br>
+                <label>Rate our website!</label><br>
+
+                <input type="radio" id="1" name="rate" value="1">
+                <label for="2">⭐</label>
+
+                <input type="radio" id="2" name="rate" value="2">
+                <label for="2">⭐⭐</label>
+
+                <input type="radio" id="3" name="rate" value="3">
+                <label for="3">⭐⭐⭐</label>
+
+                <input type="radio" id="4" name="rate" value="4">
+                <label for="4">⭐⭐⭐⭐</label>
+
+                <input type="radio" id="5" name="rate" value="5">
+                <label for="5">⭐⭐⭐⭐⭐</label>
+                <br>
+            </div>
+        </div>
+       
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./images/Logo.svg" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Eco-Tech</span>
+                    <span class="profession">DIY Website</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="search" placeholder="search....">
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class='bx bx-home-alt icon'></i>
+                        <span class="text nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="./main_category/category.html">
+                        <i class='bx bx-category-alt icon'></i>
+                        <span class="text nav-text">Category</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="./contact_us/contact_us.html">
+                        <i class='bx bx-message-square-dots icon'></i>
+                        <span class="text nav-text">Contact</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="./about_us/About_us.html">
+                        <i class='bx bx-user icon'></i>
+                        <span class="text nav-text">About Us</span>
+                    </a>
+                </li>
+
+            </div>
+
+            <div class="button-content">
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="mt-0">
+        <div class="row hero">
+            <div class="col-12 col-lg-6 align-self-center">
+                <div class="ms-md-4 mx-2">
+                    <h1>Eco-Tech</h1>
+                    <h5 class="ms-2">Welcome to Eco-Tech, your go-to platform for fun and creative DIY projects! Explore our five exciting categories: Art and Craft for unique handmade creations, Bird Feeder ideas to support nature, Cardboard crafts for upcycling fun, 3R DIY to reduce, reuse, and recycle, and School Stationery projects to personalize your supplies. At Eco-Tech, we inspire creativity and sustainability, making it easy to turn simple materials into something extraordinary. Let’s create a better, greener world together, one DIY project at a time!</h5>
+                    <button class="btn btn-success my-3 ms-2">Start!</button>
+                    <div class="d-flex mt-3 heroIcons ms-2">
+                        <img src="./images/50.svg" alt="50m" width="60px" class="me-3" data-bs-toggle="tooltip"
+                            title="50+ Projects" data-bs-placement="bottom">
+                        <img src="./images/1m.svg" alt="50m" width="60px" class="mx-3" data-bs-toggle="tooltip"
+                            title="1M + Users" data-bs-placement="bottom">
+                        <img src="./images/contributors.svg" alt="50m" width="60px" class="mx-3"
+                            data-bs-toggle="tooltip" title="100+ Contributors" data-bs-placement="bottom">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 heroImgCon"></div>
+        </div>
+        <hr>
+        <h2 class="text-center">Categories</h2>
+        <div class="categoriesCarousel">
+
+
+
+<div class="d-flex justify-content-evenly" style="flex-wrap: wrap;">
+   <div class="mx-3"> <img class="d-block m-auto mb-2" src="./Image/3rlogo.jpeg" alt="" width="50px" height="50px" class="m-3"><h5 class="text-center">3R DIY</h5></div>
+   <div class="mx-3"> <img class="d-block m-auto mb-2" src="./Image/art&craft_logo.jpeg" alt="" width="50px" height="50px" class="m-3"><h5 class="text-center">Art & Craft</h5></div>
+   <div class="mx-3"> <img class="d-block m-auto mb-2" src="./Image/birdfeederlogo.jpeg" alt="" width="50px" height="50px" class="m-3"><h5 class="text-center">Bird Feeder</h5></div>
+   <div class="mx-3"> <img class="d-block m-auto mb-2" src="./Image/cardboardlogo.png" alt="" width="50px" height="50px" class="m-3"><h5 class="text-center">Cardboard</h5></div>
+   <div class="mx-3"> <img class="d-block m-auto mb-2" src="./Image/ssylogo.png" alt="" width="50px" height="50px" class="m-3"><h5 class="text-center">School Stationary</h5></div>
+</div>
+
+
+
+
+            
+        </div>
+        <hr>
+        <h2 class="text-center">Featured Projects</h2>
+        <div class="row justify-content-center p-2">
+
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-3">
+                <div class="card w-100 " style="width: 18rem; background-color: transparent; border: 0;">
+                    <div class="px-4">
+                        <img src="./main_category/projects/art_n_crafts/christmas_paper_tree/1.svg" class="card-img-top shadow"
+                            style="border-top-left-radius: 30px; border-top-right-radius: 30px;" alt="...">
+                    </div>
+                    <div class="card-body text-center bg-light shadow projectCard" style="border-radius: 30px;">
+                        <h5 class="card-title">Christmas Tree with paper</h5>
+                        <p class="card-text">Make a festive tree using paper, cardboard, and decorations. Cut, layer, and decorate triangles, add a trunk and star, then display it upright or on a wall!</p>
+                    <a href="./main_category/category.html">    <button class="btn btn-success">View</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-3">
+                <div class="card w-100 " style="width: 18rem; background-color: transparent; border: 0;">
+                    <div class="px-4">
+                        <img src="./main_category/projects/bird_feeder/bird_water_feeder1/1.svg" class="card-img-top shadow"
+                            style="border-top-left-radius: 30px; border-top-right-radius: 30px;" alt="...">
+                    </div>
+                    <div class="card-body text-center bg-light shadow projectCard" style="border-radius: 30px;">
+                        <h5 class="card-title">Summer Bird Water Feeder</h5>
+                        <p class="card-text">Turn a plastic bottle and a container into a simple water feeder for birds. It's an easy, eco-friendly project that helps keep birds hydrated.</p>
+                        <a href="./main_category/category.html">    <button class="btn btn-success">View</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-3">
+                <div class="card w-100 " style="width: 18rem; background-color: transparent; border: 0;">
+                    <div class="px-4">
+                        <img src="./main_category/projects/cardboard/fan/1.svg" class="card-img-top shadow"
+                            style="border-top-left-radius: 30px; border-top-right-radius: 30px;" alt="...">
+                    </div>
+                    <div class="card-body text-center bg-light shadow projectCard" style="border-radius: 30px;">
+                        <h5 class="card-title">Table Fan
+                        </h5>
+                        <p class="card-text">Build a DIY cardboard fan with a box base, a rolled cardboard stick, and angled propeller blades. Power it using a motor and battery circuit with a switch.</p>
+                        <a href="./main_category/category.html">    <button class="btn btn-success">View</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3 my-3">
+                <div class="card w-100 " style="width: 18rem; background-color: transparent; border: 0;">
+                    <div class="px-4">
+                        <img src="./main_category/projects/stationary/pencil_holder/1.svg" class="card-img-top shadow"
+                            style="border-top-left-radius: 30px; border-top-right-radius: 30px;" alt="...">
+                    </div>
+                    <div class="card-body text-center bg-light shadow projectCard" style="border-radius: 30px;">
+                        <h5 class="card-title">Pencil Holder</h5>
+                        <p class="card-text">Create a unique pencil holder by recycling a tin can! Clean the can, color
+                            a design you like, and glue it around the can. Let it dry, and enjoy your personalized
+                            creation.</p>
+                            <a href="./main_category/category.html">    <button class="btn btn-success">View</button></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <h2 class="text-center">What our users are saying?</h2>
+        <div class="row px-4 justify-content-center" style="margin-top: 50px;">
+           
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3" style="margin-top: 60px; margin-bottom: 20px;">
+                <div class="card w-100 " style="width: 18rem;">
+                    <div class="card-body text-center reviewCard p-0 shadow">
+             <div class="pfpCon">
+                <div class="pfp shadow"></div>
+             </div>
+                            <!-- <div class="col-6 p-0">
+                                <div class="pfp m-auto"></div>
+                            </div> -->
+                            <!-- <div class="col-6 d-flex align-items-center p-0"><h2>Apex Frank</h2></div> -->
+                             <h2 class="text-center" style="margin-top: 50px;">Raymond</h2>
+                       
+                        <div class="d-flex justify-content-center mt-2">
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                        </div>
+                        <p class="text-center m-2">This DIY website is fantastic! Easy-to-follow instructions and great community support. Highly recommend!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3" style="margin-top: 60px; margin-bottom: 20px;">
+                <div class="card w-100 " style="width: 18rem;">
+                    <div class="card-body text-center reviewCard p-0 shadow">
+             <div class="pfpCon">
+                <div class="pfp shadow"></div>
+             </div>
+                            <!-- <div class="col-6 p-0">
+                                <div class="pfp m-auto"></div>
+                            </div> -->
+                            <!-- <div class="col-6 d-flex align-items-center p-0"><h2>Apex Frank</h2></div> -->
+                             <h2 class="text-center" style="margin-top: 50px;">John</h2>
+                       
+                        <div class="d-flex justify-content-center mt-2">
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                        </div>
+                        <p class="text-center m-2">This DIY website is a lifesaver! Clear instructions, helpful community, and endless project inspiration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 col-xxl-3" style="margin-top: 60px; margin-bottom: 20px;">
+                <div class="card w-100 " style="width: 18rem;">
+                    <div class="card-body text-center reviewCard p-0 shadow">
+             <div class="pfpCon">
+                <div class="pfp shadow"></div>
+             </div>
+                            <!-- <div class="col-6 p-0">
+                                <div class="pfp m-auto"></div>
+                            </div> -->
+                            <!-- <div class="col-6 d-flex align-items-center p-0"><h2>Apex Frank</h2></div> -->
+                             <h2 class="text-center" style="margin-top: 50px;">Zoei</h2>
+                       
+                        <div class="d-flex justify-content-center mt-2">
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                            <i class="bi bi-star-fill text-warning" style=" margin: 0 3px 0 3px;"></i>
+                        </div>
+                        <p class="text-center m-2">This DIY website is a must-try for anyone looking to learn new skills and create amazing things.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+      <button class="btn m-auto d-block reviewBtn my-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Add your review ></button>
+
+      <div class="finalCon">
+        <div class="text-center myCon">
+        <h2 class="finalH2">Start making DIY projects today!</h2>
+            <button class="btn btn-success">Start!</button>
+        </div>
+      </div>
+    </div>
+<!-- Footer -->
+
+<footer class="footer bg-light text-dark" id="footer">
+    <div class="container text-center py-4">
+        <!--Media Links -->
+        <div class="social-icons mb-3">
+            <a href="#"> <i class="bi bi-facebook mx-2 socialIcons" style="font-size: 30px;"
+                            data-bs-toggle="tooltip" title="Facebook" data-bs-placement="bottom"></i></a>
+
+                    <a href="#">
+                        <i class="bi bi-twitter mx-2 socialIcons" style="font-size: 30px;"
+                            data-bs-toggle="tooltip" title="Twitter" data-bs-placement="bottom"></i></a>
+
+                    <a href="#"> <i class="bi bi-youtube mx-2 socialIcons" style="font-size: 30px;"
+                            data-bs-toggle="tooltip" title="YouTube" data-bs-placement="bottom"></i></a>
+
+
+                    <a href="#"> <i class="bi bi-instagram mx-2 socialIcons" style="font-size: 30px;"
+                            data-bs-toggle="tooltip" title="Instagram" data-bs-placement="bottom"></i></a>
+
+                    <a href="mailto:contact@eco.tech.org"><i class="bi bi-envelope mx-2 socialIcons"
+                            style="font-size: 30px;" data-bs-toggle="tooltip" title="Email"
+                            data-bs-placement="bottom"></i></a>
+        </div>
+        
+        <!--Links -->
+        <ul class="footer-links list-inline mb-3">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="./main_category/category.html">Category</a></li>
+            <li class="list-inline-item"><a href="./contact_us/contact_us.html">Contact us</a></li>
+            <li class="list-inline-item"><a href="./about_us/About_us.html">About us</a></li>
+            <li class="list-inline-item"><a href="./reference/03_reference 2.html">References</a></li>
+        </ul>
+    </div>
+
+    <div class="tagline text-center py-3 text-light">
+        <p class="mb-0">Find DIY projects, tips, and tutorials to bring your creative 🤍 ideas to life</p>
+        <p class="mb-0">DIY & creativity Website | no experience needed!</p>
+    </div>
+</footer>
+
+    <script src="./home/script.js"></script>
+    <script src="../sidebar/home_sidebar.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation');
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+        })()
+    </script>
+</body>
+
+</html>
