@@ -1,0 +1,41 @@
+.socialIcons:hover{
+    text-shadow: 0 0 2px rgb(146, 146, 146);
+}
+
+.socialIcons{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .imgCon{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imgCon{
+        display: none;
+    }
+}
+
+.form-control:focus{
+    border-color: #198754;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #198754c0;
+}
+
+textarea{
+    max-height: 200px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+
+    /* fallback height */
+    min-height: 100vh;
+
+    /* new small viewport height for modern browsers */
+    min-height: 100svh;
+}
