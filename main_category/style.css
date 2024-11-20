@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.projectFullCon{
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.projectInfoCon{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.projectVidCon{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.closeBtn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px !important;
+    z-index: 1000;
+}
+
+
+
+.accordion-button:focus{
+    box-shadow: 0 0 0px transparent;
+}
+
+textarea{
+    max-height: 100px;
+}
+
+.mobileViewCon{
+    display: none;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 950px) {
+    .desktopViewCon{
+        display: none;
+    }
+    .mobileViewCon{
+        display: block;
+    }
+}
+
+.form-control:focus{
+    border-color: #198754;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #198754c0;
+}
+
+textarea{
+    max-height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    iframe{
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    iframe{
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    iframe{
+        height: 275px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    iframe{
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    iframe{
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    iframe{
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    iframe{
+        height: 135px;
+    }
+}
+
+.projectCard{
+    height: 400px;
+    transition: 0.7s;
+}
+
+.projectCard:hover{
+    box-shadow: 0 0 10px #198754c0;
+}
+
+@media screen and (max-width: 767px) {
+    .projectCard{
+        height: 100%;
+    }
+}
+
+/* @media screen and (max-width: 570px) {
+    .projectCard{
+        height: 430px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projectCard{
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .projectCard{
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .projectCard{
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .projectCard{
+        height: 100%;
+    }
+} */
+
+.nav-link{
+    transition: 0.7s;
+}
+
+.active{
+    box-shadow: 0 0 20px rgb(53, 190, 53);
+}
+
+.tab-pane{
+    box-shadow: 0 0 0 transparent;
+}
+
+.carousel-item img{
+    border-radius: 10px;
+}
+
+.carousel-fade{
+    margin-bottom: 10px;
+}
